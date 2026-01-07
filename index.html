@@ -2,13 +2,349 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>AI Excel 소개 영상</title>
+  <title>AI 위험성평가 자동화 솔루션 | Excel 기반</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="엑셀 기반 AI 위험성평가 자동화 솔루션. 설치 없이 바로 사용, 회사 양식 커스터마이징 무료 지원.">
+
+  <!-- Pretendard -->
+  <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
+
+  <style>
+    :root{
+      --blue:#004080;
+      --blue2:#007bff;
+      --bg:#f4f7fb;
+      --dark:#111827;
+      --gray:#6b7280;
+      --card:#ffffff;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{
+      font-family:'Pretendard',-apple-system,BlinkMacSystemFont,sans-serif;
+      background:var(--bg);
+      color:var(--dark);
+      line-height:1.7;
+    }
+    header{
+      background:linear-gradient(135deg,var(--blue),var(--blue2));
+      color:#fff;
+      padding:70px 20px;
+      text-align:center;
+    }
+    header h1{font-size:38px; letter-spacing:-0.02em;}
+    header p{margin-top:16px;font-size:18px;opacity:.95;}
+
+    section{padding:70px 20px;}
+    .container{max-width:1100px;margin:0 auto;}
+
+    .badge{
+      display:inline-block;
+      padding:6px 14px;
+      border-radius:999px;
+      background:rgba(255,255,255,.18);
+      color:#fff;
+      font-weight:700;
+      font-size:13px;
+      margin-bottom:14px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:24px;
+      margin-top:36px;
+    }
+    .card{
+      background:var(--card);
+      border-radius:18px;
+      padding:28px;
+      box-shadow:0 15px 35px rgba(0,0,0,.08);
+    }
+    .card h3{font-size:20px;}
+    .card ul{margin-top:14px;padding-left:18px;}
+    .card li{margin-bottom:10px;}
+
+    .video-wrap{
+      margin-top:30px;
+      position:relative;
+      padding-top:56.25%;
+      border-radius:18px;
+      overflow:hidden;
+      box-shadow:0 20px 40px rgba(0,0,0,.15);
+    }
+    .video-wrap iframe,
+    .video-wrap video{
+      position:absolute;
+      top:0;left:0;
+      width:100%;
+      height:100%;
+      border:none;
+    }
+
+    .price-box{
+      background:linear-gradient(180deg,#ffffff,#f0f6ff);
+      border:2px solid var(--blue);
+      border-radius:22px;
+      padding:36px;
+      text-align:center;
+      margin-top:30px;
+    }
+    .price{
+      font-size:42px;
+      font-weight:900;
+      margin:20px 0;
+      color:var(--blue);
+    }
+
+    .btn{
+      display:inline-block;
+      padding:14px 28px;
+      border-radius:12px;
+      background:linear-gradient(135deg,var(--blue),var(--blue2));
+      color:#fff;
+      font-weight:800;
+      text-decoration:none;
+      margin:6px;
+    }
+    .btn.outline{
+      background:#fff;
+      color:var(--blue);
+      border:2px solid var(--blue);
+    }
+
+    footer{
+      background:#0b1e33;
+      color:#cbd5e1;
+      padding:30px 20px;
+      font-size:13px;
+      line-height:1.6;
+      text-align:center;
+    }
+  </style>
 </head>
-<body style="margin:0; background:#000; display:flex; justify-content:center; align-items:center; height:100vh;">
-  <video controls autoplay style="max-width:100%; max-height:100%;">
-    <source src="AI-Excel.mp4" type="video/mp4">
-    브라우저가 동영상을 지원하지 않습니다.
-  </video>
+
+<body>
+
+<header>
+  <span class="badge">Excel + AI 자동화</span>
+  <h1>AI 위험성평가 자동화 솔루션</h1>
+  <p>
+    엑셀 기반 · 설치 불필요 · 회사 양식 커스터마이징 무료<br>
+    건설·제조 현장 실무를 위한 위험성평가 자동화 도구
+  </p>
+</header>
+
+<section>
+  <div class="container">
+    <h2>주요 기능</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>AI 위험요인 분석</h3>
+        <ul>
+          <li>피해형태 / 발생원인 자동 분류</li>
+          <li>중대성·가능성 기준 반영</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>개선대책 자동 생성</h3>
+        <ul>
+          <li>공종별 맞춤 개선대책</li>
+          <li>실무 문서 그대로 사용 가능</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>안전교육내용 문구 자동화</h3>
+        <ul>
+          <li>10초 안전교육 문구 자동 생성</li>
+          <li>현장명·작업내용 반영</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>엑셀이기 때문에 PDF 자동 출력</h3>
+        <ul>
+          <li>보고서·제출용 PDF 즉시 생성</li>
+          <li>대외 제출용 문서 활용 가능</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>엑셀 양식 커스터마이징</h3>
+        <ul>
+          <li>회사 내부 위험성평가 양식 반영</li>
+          <li>기존 서식·항목·문구 구조 유지</li>
+          <li><strong>회사 양식에 맞춘 수정 지원 (무료)</strong></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>도입 지원 범위</h3>
+        <ul>
+          <li>기본 엑셀 구조 제공</li>
+          <li>양식 반영 1회 무료</li>
+          <li>추가 수정 시 협의</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ▶ 영상 섹션 1 (iframe) -->
+<section>
+  <div class="container">
+    <h2>시연 영상 ① — 웹 데모</h2>
+    <div class="video-wrap">
+      <iframe
+        src="https://es1063122-creator.github.io/AI-Excel/"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ▶ 영상 섹션 2 (mp4) -->
+<section>
+  <div class="container">
+    <h2>시연 영상 ② — 설치형 Demo (mp4)</h2>
+    <div class="video-wrap">
+      <video controls>
+        <source src="https://raw.githubusercontent.com/es1063122-creator/AI-Excel/main/aiEcxel.mp4" type="video/mp4">
+        브라우저가 동영상을 지원하지 않습니다.
+      </video>
+    </div>
+  </div>
+</section>
+<!-- ▶ 하도급사 위험성평가 의무 안내 -->
+<section style="background:#eef4ff;">
+  <div class="container">
+    <h2>하도급사 위험성평가 의무 안내</h2>
+
+    <div class="card" style="margin-top:20px;">
+      <h3>하도급사도 별도로 위험성평가를 해야 합니다</h3>
+      <p style="margin-top:10px;color:#555;">
+        원청이 위험성평가를 하더라도, 하도급사는 자체적으로 추가 평가를 해야 하며 이는 산업안전보건법에 따른 필수 의무입니다.
+      </p>
+
+      <!-- 토글 버튼 -->
+      <button
+        id="toggleDetail"
+        style="
+          margin-top:14px;
+          padding:10px 18px;
+          border:none;
+          border-radius:8px;
+          background:linear-gradient(135deg,var(--blue),var(--blue2));
+          color:#fff;
+          font-weight:700;
+          cursor:pointer;
+        ">
+        자세히 보기 ▼
+      </button>
+
+      <!-- 펼쳐지는 상세 내용 -->
+      <div id="detailBox" style="display:none; margin-top:20px; color:#333; line-height:1.8;">
+        <strong>1) 법적 근거</strong><br>
+        산업안전보건법 제36~42조에 따라 각 사업주는 자기 근로자에게 발생할 위험요인을 평가해야 합니다.<br><br>
+
+        <strong>2) 왜 하도급사도 별도 평가가 필요한가?</strong>
+        <ul style="margin-top:8px; padding-left:18px;">
+          <li>원청 평가만으로는 우리 회사의 세부 작업 방식 반영 불가</li>
+          <li>우리 장비·작업자·작업순서에 대한 평가 필요</li>
+          <li>법적 의무 미이행 시 과태료 및 사고 시 책임 증가</li>
+        </ul>
+
+        <strong>3) 작성해야 할 주요 항목</strong>
+        <ul style="margin-top:8px; padding-left:18px;">
+          <li>공종별 작업 내용</li>
+          <li>위험요인 파악(낙하·협착·전도·붕괴 등)</li>
+          <li>위험성 산정(가능성 × 중대성)</li>
+          <li>개선대책(순서, 유도자 배치, PPE, 장비 점검 등)</li>
+          <li>근로자 설명 및 서명</li>
+        </ul>
+
+        <strong>4) 미작성 시 발생하는 문제</strong>
+        <ul style="margin-top:8px; padding-left:18px;">
+          <li>원청·감독기관 점검 시 지적</li>
+          <li>사고 발생 시 하도급사의 책임 강화</li>
+          <li>근로자 교육 근거 부족</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 토글 스크립트 -->
+<script>
+  const toggleBtn = document.getElementById("toggleDetail");
+  const detailBox = document.getElementById("detailBox");
+  let open = false;
+
+  toggleBtn.addEventListener("click", () => {
+    open = !open;
+    detailBox.style.display = open ? "block" : "none";
+    toggleBtn.textContent = open ? "접기 ▲" : "자세히 보기 ▼";
+  });
+</script>
+
+
+<section>
+  <div class="container">
+    <h2>신청 안내</h2>
+
+    <div class="price-box">
+      <h3>AI 위험성평가 자동화 솔루션 (Excel)</h3>
+      <div class="price">가격미정</div>
+      <p>
+        · 1회 구매 / 기간 제한 없음<br>
+        · API Key는 구매자 직접 발급<br>
+        · 회사 양식 커스터마이징 무료 포함<br><br>
+        ※ 1달 무료체험판은 자동 결제되지 않습니다.
+      </p>
+
+      <div>
+        <a
+          class="btn"
+          href="https://forms.gle/vkANZzn2u5PcycR28"
+          target="_blank"
+          rel="noopener noreferrer">
+          구매 신청하기
+        </a>
+
+        <a
+          class="btn outline"
+          href="https://forms.gle/vkANZzn2u5PcycR28"
+          target="_blank"
+          rel="noopener noreferrer">
+          1달 무료체험판 신청
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#f8fafc;">
+  <div class="container">
+    <h3 style="font-size:18px;margin-bottom:14px;">결제 및 제품 전달 안내</h3>
+    <p style="font-size:14px;line-height:1.8;color:#374151;">
+      · 본 제품은 엑셀 파일 형태의 디지털 콘텐츠입니다.<br>
+      · 신청 확인 후 안내에 따라 진행되며, 전달은 이메일로 이루어집니다.<br>
+      · 디지털 콘텐츠 특성상 결제 완료 후 단순 변심에 의한 환불은 불가합니다.<br><br>
+
+      · 본 제품은 안전관리 업무를 보조하는 도구이며 AI 분석 결과는 참고용입니다.<br>
+      · API Key는 구매자가 직접 발급·관리하며 사용 요금은 AI 서비스 제공사 정책을 따릅니다.
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2025 김대홍 | AI 위험성평가 자동화 솔루션<br>
+  본 제품은 법적 책임을 대체하지 않습니다.
+</footer>
+
 </body>
 </html>
